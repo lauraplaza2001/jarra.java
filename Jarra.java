@@ -32,3 +32,9 @@ public
 int cantidad(){
 return this.cantidad;
 }
+public bool llena(){
+return this.cantidad=this.capacidad;
+}
+public bool vacia(){
+return this.cantidad=0;
+}
